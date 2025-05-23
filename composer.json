@@ -1,0 +1,17 @@
+{
+    "name": "coincraddle/php-sdk",
+    "description": "Official PHP SDK for Coincraddle API",
+    "type": "library",
+    "require": {
+        "php": ">=7.4",
+        "guzzlehttp/guzzle": "^7.0",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Coincraddle\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "minimum-stability": "stable"
+} 
